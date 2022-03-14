@@ -170,6 +170,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.nitrogen.settings.NitrogenSettings;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -326,7 +328,8 @@ public class SettingsGateway {
             NetworkSelectSettings.class.getName(),
             AlarmsAndRemindersDetails.class.getName(),
             MediaManagementAppsDetails.class.getName(),
-            NitrogenSettings.class.getName()
+            NitrogenSettings.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
